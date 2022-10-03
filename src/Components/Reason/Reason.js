@@ -1,7 +1,7 @@
 
 import './Reason.css';
-import one from '../../media/pictures/female.jpg';
-import two from '../../media/pictures/two.jpg';
+import one from './reasonone.jpg';
+import two from './reasontwo.jpg';
 
 
 
@@ -26,7 +26,7 @@ const Reason = ()=>{
                     our services?
                 </p>
 
-                <p className='summary'>
+                <p className='summary'> 
                     Efficient, Friendly, Residential & Commercial Cleaners. Your
                     <br />
                     Satisfaction is Guaranteed

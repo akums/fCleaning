@@ -1,2 +1,7 @@
 
-.Preloader{}
+.Preloader{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 1.7cm;
+    font-weight: bold;
+}

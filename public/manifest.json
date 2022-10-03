@@ -1,12 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "fCleaning",
+  "name": "fCleaning Services",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
+    },  
     {
       "src": "logo192.png",
       "type": "image/png",
@@ -19,7 +19,7 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "orangered",
-  "background_color": "royalblue"
+  "display": "browser",
+  "theme_color": "#123456",
+  "background_color": "#fff"
 }

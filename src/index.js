@@ -11,7 +11,7 @@ import { BrowserRouter } from 'react-router-dom';
 const store = legacy_createStore(reducer)
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.querySelector('.f-Cleaning_best_cleaning_services'));
 root.render(
   <React.StrictMode>
 

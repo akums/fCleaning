@@ -26,7 +26,7 @@ const Footer = ({ name })=>{
                             <NavLink to="/about-us" className='futalinks'>About us</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/services/deep-cleaning" className='futalinks'>Service</NavLink>
+                            <NavLink to="/deep-cleaning" className='futalinks'>Service</NavLink>
                         </li>
                         <li>
                             <NavLink to="/reviews" className='futalinks'>Reviews</NavLink>
@@ -45,29 +45,29 @@ const Footer = ({ name })=>{
                     <ul>
                     <h3>Service</h3>
                         <li>
-                            <NavLink to='/services/standard-cleaning' className='futalinks'>
+                            <NavLink to='/standard-cleaning' className='futalinks'>
                                 Standard Cleaning
                             </NavLink>
                         </li>
 
                         <li>
-                            <NavLink to='/services/carpet-cleaning' className='futalinks'> Carpet Cleaning</NavLink>
+                            <NavLink to='/carpet-cleaning' className='futalinks'> Carpet Cleaning</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to='/services/windows-cleaning' className='futalinks'>
+                            <NavLink to='/windows-cleaning' className='futalinks'>
                                 Window Cleaning
                             </NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/services/commercial-cleaning" className='futalinks'>
+                            <NavLink to="/commercial-cleaning" className='futalinks'>
                                 Commercial Cleaning
                             </NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/services/airbnb-cleaning" className='futalinks'>
+                            <NavLink to="/airbnb-cleaning" className='futalinks'>
                                 AirBnb Cleaning
                             </NavLink>
                         </li>

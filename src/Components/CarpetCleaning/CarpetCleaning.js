@@ -1,7 +1,7 @@
 
 import './CarpetCleaning.css';
 import GeneralLandPage from '../GeneralLandPage/GeneralLandPage';
-import foto from '../../media/pictures/female.jpg';
+import foto from './capetcapet.jpg';
 import MainTitleDuty from '../MainTitleDuty/MainTitleDuty';
 import ScheduleAppt from '../ScheduleAppt/ScheduleAppt';
 import carepetImgDescription from '../../media/pictures/female.jpg';

@@ -1,6 +1,6 @@
 
 import './AirBnb.css';
-import foto from '../../media/pictures/two.jpg';
+import foto from './air.jpg';
 import GeneralLandPage from '../GeneralLandPage/GeneralLandPage';
 import MainTitleDuty from '../MainTitleDuty/MainTitleDuty';
 import ScheduleAppt from '../ScheduleAppt/ScheduleAppt';

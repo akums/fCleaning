@@ -48,49 +48,49 @@ const MobileResNav = ()=>{
                         ? 
                         <article>
                             <p><BiBrush className="blyu"/> 
-                                <NavLink to="/services/standard-cleaning" className="mmm">
+                                <NavLink to="/standard-cleaning" className="mmm">
                                     &nbsp;Standard Cleaning
                                 </NavLink>
                             </p>
 
                             <p><BiBasket className="blyu"/>
-                                <NavLink to="/services/deep-cleaning" className="mmm">
+                                <NavLink to="/deep-cleaning" className="mmm">
                                 &nbsp; Deep Cleaning
                                 </NavLink>
                             </p>
 
                             <p><FaAirbnb className="blyu"/>
-                                <NavLink to="/services/airbnb-cleaning" className="mmm">
+                                <NavLink to="/airbnb-cleaning" className="mmm">
                                     &nbsp; AirBnb Cleaning
                                 </NavLink>
                             </p>
 
                             <p><MdFlaky className="blyu"/>
-                                <NavLink to="/services/commercial-cleaning" className="mmm">
+                                <NavLink to="/commercial-cleaning" className="mmm">
                                     &nbsp; Commercial Cleaning
                                 </NavLink>
                             </p>
 
                             <p><MdOutlineWindow className="blyu"/>
-                                <NavLink to="/services/windows-cleaning" className="mmm">
+                                <NavLink to="/windows-cleaning" className="mmm">
                                     &nbsp; Windows Cleaning
                                 </NavLink>
                             </p>
 
                             <p><MdConstruction className="blyu"/>
-                                <NavLink to="/services/post-construction" className="mmm">
+                                <NavLink to="/post-construction" className="mmm">
                                     &nbsp; Post Construction
                                 </NavLink>
                             </p>
 
                             <p><GiSpookyHouse className="blyu"/>
-                                <NavLink to="/services/move-inout" className="mmm">
+                                <NavLink to="/move-inout" className="mmm">
                                     &nbsp; MoveIn oveOu
                                 </NavLink>
                             </p>
 
                             <p><GiRedCarpet className="blyu"/>
-                                <NavLink to="/services/carpet-cleaning" className="mmm">
+                                <NavLink to="/carpet-cleaning" className="mmm">
                                     &nbsp; Carpet Cleaning
                                 </NavLink>
                             </p>

@@ -1,6 +1,6 @@
 
 import './WindowsCleaning.css';
-import foto from '../../media/pictures/two.jpg';
+import foto from './wincleaning.jpg';
 import GeneralLandPage from '../GeneralLandPage/GeneralLandPage';
 import ScheduleAppt from '../ScheduleAppt/ScheduleAppt';
 
@@ -17,7 +17,7 @@ const WindowsCleaning = ()=>{
             }}>Windows Cleaning</h1>
             
             <div className='windows_role'>
-                <ol clasName='olllll'>
+                <ol className='olllll'>
                     <li>We scrub and scrub your windows to release buildup of grease.
                         dirt and airbone contminants.
                     </li>

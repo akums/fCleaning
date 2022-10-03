@@ -1,6 +1,6 @@
 
 import './CommercialCleaning.css';
-import foto from '../../media/pictures/two.jpg';
+import foto from './coma.jpg';
 import GeneralLandPage from '../GeneralLandPage/GeneralLandPage';
 import ScheduleAppt from '../ScheduleAppt/ScheduleAppt';
 import MainTitleDuty from '../MainTitleDuty/MainTitleDuty';

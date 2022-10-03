@@ -1,8 +1,12 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import './AboutUs.css';
 import { connect } from 'react-redux';
 import familyPix from '../../media/pictures/female.jpg';
+import famowned from './famowned.jpg';
+import conven from './conven.jpg';
+import expeckt from './expeckt.jpg';
+import maincommit from './maincommit.jpg';
 
 const AboutUs = (props)=>{
 
@@ -12,13 +16,13 @@ const AboutUs = (props)=>{
         <div className="about_us">
 
             <div className='about_landing_container'>
-                <h1 className='cntr ubuntu abt_h1 orange' style={{'marginTop': '4cm', 'fontSize': '46px'}}>About Us</h1>
+                {/* <h1 className='cntr ubuntu abt_h1 orange' style={{'marginTop': '4cm', 'fontSize': '46px'}}>About Us</h1> */}
             </div>
             
             <div className='about_pikin'>
 
                 <article className='text_and_imgg'>
-                    <img src={familyPix} alt='family' className='for_family_pix' />
+                    <img src={famowned} alt='family' className='for_family_pix' />
                     
                     <div>
                         <h2 className="ubuntu bue hhh">Family Owned</h2>
@@ -43,12 +47,12 @@ const AboutUs = (props)=>{
                         </p>
                     </div>
 
-                    <img src={familyPix} alt='family' className='for_family_pix' />
+                    <img src={maincommit} alt='family' className='for_family_pix' />
                 </article>
 
 
                 <article className='text_and_imgg'>
-                    <img src={familyPix} alt='family' className='for_family_pix' />
+                    <img src={expeckt} alt='family' className='for_family_pix' />
                     
                     <div>
                         <h2 className="ubuntu bue hhh">What to expect</h2>
@@ -73,7 +77,7 @@ const AboutUs = (props)=>{
                         </p>
                     </span>
 
-                    <img src={familyPix} alt='family' className='for_family_pix' />
+                    <img src={conven} alt='family' className='for_family_pix' />
                 </article>
 
             </div>

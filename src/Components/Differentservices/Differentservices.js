@@ -1,9 +1,11 @@
 
 import './Differentservices.css';
 import { NavLink } from 'react-router-dom';
-
-
-import diff from './diff.jpg';
+import standard from './standard.jpg';
+import homecarpet from './homecarpet.jpg'
+import homewin from './homewin2.jpg';
+import postconst from './postconst.jpg';
+import comcleaning from './comcleaning.jpg'
 
 const Differentservices = ()=>{
     return(<>
@@ -14,7 +16,7 @@ const Differentservices = ()=>{
             <div className='diff_wrapper'>
                 <NavLink to='services/standard-cleaning' className='diff_link'>
                     <div className='inheritance'>
-                        <img src={diff} alt="differnt srevices" className='img_size' />
+                        <img src={standard} alt="differnt srevices" className='img_size' />
 
                         <span className='diff_txt'> 
                             <h3 className='ubuntu h_title'>Standard Cleaning</h3>
@@ -32,7 +34,7 @@ const Differentservices = ()=>{
             <div className='diff_wrapper'>
                 <NavLink to='services/carpet-cleaning' className='diff_link'>
                     <div className='inheritance'>
-                        <img src={diff} alt="differnt srevices" className='img_size' />
+                        <img src={homecarpet} alt="differnt srevices" className='img_size' />
 
                         <span className='diff_txt'> 
                             <h3 className='ubuntu h_title'>Carpet Cleaning</h3>
@@ -53,7 +55,7 @@ const Differentservices = ()=>{
             <div className='diff_wrapper'>
                 <NavLink to='services/commercial-cleaning' className='diff_link'>
                     <div className='inheritance'>
-                        <img src={diff} alt="differnt srevices" className='img_size' />
+                        <img src={comcleaning} alt="differnt srevices" className='img_size' />
 
                         <span className='diff_txt'> 
                             <h3 className='ubuntu h_title'>Commercial Cleaning</h3>
@@ -75,7 +77,7 @@ const Differentservices = ()=>{
             <div className='diff_wrapper'>
                 <NavLink to='services/post-construction' className='diff_link'>
                     <div className='inheritance'>
-                        <img src={diff} alt="differnt srevices" className='img_size' />
+                        <img src={postconst} alt="differnt srevices" className='img_size' />
 
                         <span className='diff_txt'> 
                             <h3 className='ubuntu h_title'>Post Construction</h3>
@@ -95,7 +97,7 @@ const Differentservices = ()=>{
             <div className='diff_wrapper'>
                 <NavLink to='services/windows-cleaning' className='diff_link'>
                     <div className='inheritance'>
-                        <img src={diff} alt="differnt srevices" className='img_size' />
+                        <img src={homewin} alt="differnt srevices" className='img_size' />
 
                         <span className='diff_txt'> 
                             <h3 className='ubuntu h_title'>Windows Cleaning</h3>

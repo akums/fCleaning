@@ -2,11 +2,14 @@
 
 import React from 'react';
 import './StandardCleaning.css';
-import foto from '../../media/pictures/two.jpg';
+import foto from './stan.jpg';
 import GeneralLandPage from '../GeneralLandPage/GeneralLandPage';
 import ScheduleAppt from '../ScheduleAppt/ScheduleAppt';
 import MainTitleDuty from '../MainTitleDuty/MainTitleDuty';
-import standImg from '../../media/pictures/two.jpg';
+// import standImg from '../../media/pictures/two.jpg';
+import bed from './bed.jpg';
+import kich from './kich.jpg';
+
 
 const StandardCleaning = ()=>{
 
@@ -22,7 +25,7 @@ const StandardCleaning = ()=>{
             <div className='standard_contents'>
 
                 <div className='num_one_content'>
-                    <img src={standImg} alt='Standard cleaning Duties' />
+                    <img src={kich} alt='Standard cleaning Duties' />
 
                     <span>
                         <h2 style={{'fontSize': '29px'}}>Kitchen</h2>
@@ -77,7 +80,7 @@ const StandardCleaning = ()=>{
                             </li>
 
                             <li>
-                                <input type='checkbox' /> &nbsp;
+                                <input type='checkbox' /> &nbsp; 
                                Mop all floors
                             </li>
 
@@ -85,7 +88,7 @@ const StandardCleaning = ()=>{
                         </ul>
                     </span>
 
-                            <img src={standImg} alt='Standard cleaning Duties' />
+                            <img src={bed} alt='Standard cleaning Duties' />
                 </div>
 
             </div>
